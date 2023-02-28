@@ -209,7 +209,7 @@ default_tr_high = 25
 
 col1, col2, col3 = st.columns([1, 3.5, 1])
 if 'puuid' in st.session_state:
-    amount_games = 10
+    amount_games = 5
     timeline_data = load_data(st.session_state['puuid'], st.session_state['continent'], st.session_state['ranked_only'], amount_games)
 
     x_vals = []
