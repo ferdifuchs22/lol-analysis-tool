@@ -21,6 +21,7 @@ ping_image = Image.open(os.path.join(root_dir, "../images/ping_wheel.jpg"))
 spend_image = Image.open(os.path.join(root_dir, "../images/spend.jpg"))
 
 
+@st.cache_data
 def load_data(puuid, continent, ranked, amount_games):
     timeline_data_result = []
     if ranked:
