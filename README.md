@@ -2,6 +2,7 @@
 Visual Analytics Tool zur Vor- und Nachbereitung für Casual League of Legends Spieler auf Basis von Match-Daten
 
 Anleitung zum lokalen Ausführen der Anwendung:
+
     1. lol-analysis-tool Ordner im Terminal öffnen 
     
     2. Notwendigen Packages installieren:
